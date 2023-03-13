@@ -1,0 +1,293 @@
+/**
+ * Banner
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+
+
+.g-bd {
+    background: url(../images/bg/banner-bg.png) no-repeat;
+    background-size: 100%;
+    background-position: 0 -6.4rem;
+}
+
+.m-bnr {
+    padding: 0.8rem 1.05rem;
+}
+
+/**
+ * Tab
+ *
+ * -------------------------------------------------------------------------------------------------
+ */
+
+.u-tabs ul.horizontal {
+    list-style: none outside none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.u-tabs li {
+    height: 3.3rem;
+    width: 8.9rem;
+    background: #FFFFFFFF;
+    border-radius: .4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.u-tabs a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-align: center;
+    color: black;
+}
+
+.active {
+    background: #5F59C5 !important;
+}
+
+.active a {
+    color: white !important;
+}
+
+/**
+ * Tab-1人气评选
+ ---------------------------------------------------
+ */
+#tab-1 {
+    padding: .75rem 1.05rem 0 1.05rem;
+}
+
+.f-time {
+    position: relative;
+}
+
+.f-djs {
+    position: absolute;
+    font-size: 1.2rem;
+    color: #fff;
+    top: 2.7rem;
+}
+
+/* 倒计时文字定位 */
+.f-hd {
+    left: 3.6rem;
+}
+
+.f-d {
+    left: 16.6rem;
+}
+
+.f-s {
+    left: 21.3rem;
+}
+
+.f-f {
+    left: 25.95rem;
+}
+
+.f-m {
+    left: 30.65rem;
+}
+
+
+.f-djs-ic {
+    position: absolute;
+    /* display: block; */
+    top: 2.25rem;
+
+}
+
+.f-djs-ic img {
+    width: 2.7rem;
+}
+
+/* 倒计时框框定位 */
+/* 336 458 550 */
+.f-dd {
+    left: 13.75rem;
+}
+
+.f-ss {
+    left: 18.3rem;
+}
+
+.f-ff {
+    left: 22.9rem;
+}
+
+.f-mm {
+    left: 27.5rem;
+}
+/* 倒计时数字 */
+.time span{
+    position: absolute;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #fff;
+    top: 2.7rem;
+}
+.tian{
+    left: 14.4rem;
+}
+.shi{
+    left: 19.34rem;
+}
+.fen{
+    left: 23.6rem;
+}
+.miao{
+    left: 28.29rem;
+}
+
+/* 搜索框 */
+.f-sch {
+    margin-top: .85rem;
+    width: 35.4rem;
+    height: 4.3rem;
+    border-radius: .3rem;
+    background-color: #fff;
+    position: relative;
+}
+
+.f-sch img {
+    position: absolute;
+    width: 2.2rem;
+    top: 1.15rem;
+    left: 1.8rem;
+}
+
+.f-sch input {
+    position: absolute;
+    top: 1.5rem;
+    left: 4.85rem;
+}
+
+.f-sch input::placeholder {
+    color: #3877A7;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.f-sch p {
+    position: absolute;
+    top: 1.4rem;
+    color: #3877A7;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+
+.f-sch-wz {
+    left: 4.85rem;
+}
+
+.f-sch-s {
+    left: 29.35rem;
+}
+
+.f-sch-find {
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #013CA9;
+    left: 30.75rem;
+    top: 1.15rem;
+    background-color: #fff;
+}
+
+/* 作品展示 */
+.f-cte {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.u-xs {
+    /* width: 17.3rem; */
+    height: 27.5rem;
+    background-color: #fff;
+    border-radius: .6rem;
+    padding-top: .45rem;
+    padding-left: .5rem;
+    padding-right: .6rem;
+    margin-top: 1rem;
+}
+
+.f-mr {
+    margin-right: .8rem;
+}
+.u-dw{
+    width: 16.2rem;
+    height: 19.5rem;
+}
+
+#xs{
+    width: 16.2rem;
+    height: 19.5rem;
+    position: absolute;
+}
+#bh{
+    width: 3rem;
+    height: 3rem;
+    position: relative;
+    top: .45rem;
+    left: .35rem;
+}
+.idcard{
+    position: relative;
+    top: -2rem;
+    left: 0.8rem;
+    font-size: 1rem;
+    color: #FFFFFF;
+}
+
+.f-mes {
+    margin: .95rem 1.1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+/* 投票按钮 */
+.f-vote{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.f-vt-l {
+    width: 7.55rem;
+    height: 3.4rem;
+    background: linear-gradient(#EC4E91, #ED9C9D);
+    border-radius:1.7rem 0 0 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.f-sum{
+    width: 7.35rem;
+    height: 3.2rem;
+    background-color: #fff;
+    border-radius:1.7rem 0 0 1.7rem;
+    color: #C81861;
+    text-align: center;
+    line-height: 3.2rem;
+}
+
+.f-xz{
+    width: 7.55rem;
+    height: 3.4rem;
+    background: linear-gradient(#EC4E91, #ED9C9D);
+    border-radius:0 1.7rem 1.7rem 0;
+    color: #fff;
+}
+/* .f-d{
+    position: relative;
+}
+.f-dw{
+    width: 3rem;
+    position: absolute;
+    top: 0;
+} */
